@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistroConTest", "RegistroConTest\RegistroConTest.csproj", "{F8B6BA94-490A-4C88-AB88-4460F6D90079}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistroConTest", "RegistroConTest\RegistroConTest.csproj", "{F8B6BA94-490A-4C88-AB88-4460F6D90079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistroConTestTests", "RegistroConTestTests\RegistroConTestTests.csproj", "{1D145D21-EC03-45D8-92DB-4F071E016492}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F8B6BA94-490A-4C88-AB88-4460F6D90079}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8B6BA94-490A-4C88-AB88-4460F6D90079}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8B6BA94-490A-4C88-AB88-4460F6D90079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D145D21-EC03-45D8-92DB-4F071E016492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D145D21-EC03-45D8-92DB-4F071E016492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D145D21-EC03-45D8-92DB-4F071E016492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D145D21-EC03-45D8-92DB-4F071E016492}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

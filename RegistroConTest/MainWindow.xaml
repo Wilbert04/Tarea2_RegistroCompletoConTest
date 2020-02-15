@@ -9,7 +9,7 @@
     <Grid>
         <Label Content="Registros" HorizontalAlignment="Left" Margin="82,84,0,0" VerticalAlignment="Top" Height="39" Width="119" FontWeight="Bold" FontSize="24"/>
         <Label Content="Consultas" HorizontalAlignment="Left" Margin="419,84,0,0" VerticalAlignment="Top" Height="39" Width="119" FontWeight="Bold" FontSize="24"/>
-        <ComboBox HorizontalAlignment="Left" Margin="237,92,0,0" VerticalAlignment="Top" Width="163" Height="30">
+        <ComboBox HorizontalAlignment="Left" Margin="237,92,0,0" VerticalAlignment="Top" Width="163" Height="30" SelectionChanged="ComboBox_SelectionChanged">
             <ComboBoxItem Content="Registro de persona"/>
             <ComboBoxItem Content="Registro de inscripciones"/>
         </ComboBox>

@@ -13,16 +13,16 @@
         <Label Content="Mónto" HorizontalAlignment="Left" Margin="85,185,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
         <Label Content="Balance" HorizontalAlignment="Left" Margin="84,233,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
         <TextBox x:Name="IdInscripcionTextbox" HorizontalAlignment="Left" Margin="215,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AutomationProperties.Name="IdTextBox" FontWeight="Bold" FontSize="16"/>
-        <TextBox x:Name="MontoTextbox" HorizontalAlignment="Left" Margin="215,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" AutomationProperties.Name="MontoTextBox" FontWeight="Bold" FontSize="16"/>
         <TextBox x:Name="IdPersonaTextbox" HorizontalAlignment="Left" Margin="215,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AutomationProperties.Name="PersonaIdTextBox" FontWeight="Bold" FontSize="16"/>
         <TextBox x:Name="ComentarioTextbox" HorizontalAlignment="Left" Margin="215,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" AutomationProperties.Name="BalanceTextBox" FontWeight="Bold" FontSize="16" Height="51"/>
-        <Button Content="Nuevo" HorizontalAlignment="Left" Margin="94,384,0,0" VerticalAlignment="Top" Width="101" Click="NuevoButton" Height="38"/>
-        <Button Content="Buscar" HorizontalAlignment="Left" Margin="470,39,0,0" VerticalAlignment="Top" Height="33" Width="114"/>
+        <Button Content="Buscar" HorizontalAlignment="Left" Margin="470,39,0,0" VerticalAlignment="Top" Height="33" Width="114" Click="ButtonBuscar"/>
         <DatePicker x:Name="FechaPicker" HorizontalAlignment="Left" Margin="215,141,0,0" VerticalAlignment="Top" AutomationProperties.Name="FechaDate" FontWeight="Bold" FontSize="16"/>
-        <Button Content="Guardar" HorizontalAlignment="Left" Margin="310,384,0,0" VerticalAlignment="Top" Width="101" Click="NuevoButton" Height="38"/>
-        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="533,384,0,0" VerticalAlignment="Top" Width="101" Click="NuevoButton" Height="38"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="310,384,0,0" VerticalAlignment="Top" Width="101" Click="GuardarButton" Height="38"/>
         <Label Content="Comentario" HorizontalAlignment="Left" Margin="85,290,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
         <TextBox x:Name="BalanceTextbox" HorizontalAlignment="Left" Margin="215,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AutomationProperties.Name="BalanceTextBox" FontWeight="Bold" FontSize="16"/>
+        <Button Content="Nuevo" HorizontalAlignment="Left" Margin="134,388,0,0" VerticalAlignment="Top" Height="34" Width="89" Click="Button_Click"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="483,388,0,0" VerticalAlignment="Top" Height="39" Width="101" Click="ButtonEliminar"/>
+        <TextBox x:Name="Monto1Textbox" HorizontalAlignment="Left" Margin="215,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16"/>
 
     </Grid>
 </Window>

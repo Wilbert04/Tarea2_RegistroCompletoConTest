@@ -26,7 +26,7 @@
         <TextBox x:Name="BalanceTextbox1" Grid.Column="1" HorizontalAlignment="Left" Margin="98,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16" TextChanged="BalanceTextbox1_TextChanged"/>
         <DatePicker x:Name="FechaPicker1" Grid.Column="1" HorizontalAlignment="Left" Margin="158,340,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Button Content="Nuevo" HorizontalAlignment="Left" Margin="98,424,0,0" VerticalAlignment="Top" Height="49" Width="100" Grid.ColumnSpan="2" Click="ButtonNuevo"/>
-        <Button Content="Guardar" HorizontalAlignment="Left" Margin="199,424,0,0" VerticalAlignment="Top" Height="49" Width="100" Grid.Column="1" Click="Button_Click"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="199,424,0,0" VerticalAlignment="Top" Height="49" Width="100" Grid.Column="1" Click="ButtonGuardar"/>
         <Button Content="Eliminar" HorizontalAlignment="Left" Margin="429,424,0,0" VerticalAlignment="Top" Height="49" Width="100" Grid.Column="1" Click="ButtonEliminar"/>
         <Button Content="Buscar" HorizontalAlignment="Left" Margin="328,37,0,0" VerticalAlignment="Top" Height="31" Width="89" Grid.Column="1" Click="ButtonBuscar"/>
 

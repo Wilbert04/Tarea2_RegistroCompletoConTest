@@ -147,7 +147,7 @@ namespace RegistroConTest.UI.Registros
             Limpiar();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void ButtonGuardar(object sender, RoutedEventArgs e)
         {
             Persona persona;
 
