@@ -1,0 +1,28 @@
+﻿<Window x:Class="RegistroConTest.UI.Registros.RegistroInscripcion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegistroConTest.UI.Registros"
+        mc:Ignorable="d"
+        Title="Registro de inscripción" Height="550" Width="800">
+    <Grid>
+        <Label Content="Inscripción Id" HorizontalAlignment="Left" Margin="84,40,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Fecha" HorizontalAlignment="Left" Margin="84,139,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Persona Id" HorizontalAlignment="Left" Margin="85,89,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Mónto" HorizontalAlignment="Left" Margin="85,185,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Balance" HorizontalAlignment="Left" Margin="84,233,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="IdInscripcionTextbox" HorizontalAlignment="Left" Margin="215,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AutomationProperties.Name="IdTextBox" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="MontoTextbox" HorizontalAlignment="Left" Margin="215,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" AutomationProperties.Name="MontoTextBox" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="IdPersonaTextbox" HorizontalAlignment="Left" Margin="215,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AutomationProperties.Name="PersonaIdTextBox" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="ComentarioTextbox" HorizontalAlignment="Left" Margin="215,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" AutomationProperties.Name="BalanceTextBox" FontWeight="Bold" FontSize="16" Height="51"/>
+        <Button Content="Nuevo" HorizontalAlignment="Left" Margin="94,384,0,0" VerticalAlignment="Top" Width="101" Click="NuevoButton" Height="38"/>
+        <Button Content="Buscar" HorizontalAlignment="Left" Margin="470,39,0,0" VerticalAlignment="Top" Height="33" Width="114"/>
+        <DatePicker x:Name="FechaPicker" HorizontalAlignment="Left" Margin="215,141,0,0" VerticalAlignment="Top" AutomationProperties.Name="FechaDate" FontWeight="Bold" FontSize="16"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="310,384,0,0" VerticalAlignment="Top" Width="101" Click="NuevoButton" Height="38"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="533,384,0,0" VerticalAlignment="Top" Width="101" Click="NuevoButton" Height="38"/>
+        <Label Content="Comentario" HorizontalAlignment="Left" Margin="85,290,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="BalanceTextbox" HorizontalAlignment="Left" Margin="215,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" AutomationProperties.Name="BalanceTextBox" FontWeight="Bold" FontSize="16"/>
+
+    </Grid>
+</Window>
